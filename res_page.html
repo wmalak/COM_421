@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<!-- I used html for the example website for help. I am leaving the notes for personal reference -->
+<html xml:lang="en" lang="en">
+
+<head>
+	<meta charset="utf-8" />
+	<title>Professional Resume</title>
+
+<!--This meta tag tells search engines what to list below your site title. It's optional, but it looks good-->
+	<meta name="resume" content="professional information." />
+	
+<!--You can included this meta tag if you would like to request that robots not index your page for search engines, though you should think about why you are posting that content on the web-->
+	<meta name="robots" content="noindex">	
+
+<!--The link elements tell the browser where to find the style sheets that control the appearance of your page-->
+	<link rel="stylesheet" type="text/css" media="screen" href="./css/res_css.css" />
+<!--Don't worry about CSS right now. We'll get to that soon. You'll want these link elements later when you are using CSS to style your page.-->
+
+</head>
+
+<body>
+ <div class="page">
+	<header>
+	<nav class="navbar">
+	<ul>	
+		<li><a href="about.html">About</a></li>
+		<li class="dropdown"><button class="dropbtn"><a href="res_page.html">Resume</a></button>
+		<div class="dropdown-content">
+			<a href="#s">Skills</a>
+			<a href="#e">Experience</a>
+			<a href="#et">Education and Training</a>
+			<a href="#rd">Resume Download</a>
+		</div>
+		</li>
+		<li><a href="./projects.html">Projects</a></li>
+		<li><a href="./why.html">Why</a></li>
+	</ul>
+	</nav>
+	<HR>
+	<h1 class="title">William Malak</h1>
+	<HR class="bold">
+		<p class="contact_info">Address: </p>
+		<p class="c1">7735 Nottingham Drive</p>
+		<p class="c2">Tinley Park, IL 60477</p> 
+		<p class="p1">-</p> 
+		<p class="p2">Phone Number:</p>
+		<p class="p3">708-785-2578</p>
+		<p class="p4">-<p>
+		<p class="p5">Email:</p>
+		<p class="p6">wmalak@hawk.iit.edu</p>
+	<HR class="divisor">
+	</header>
+	<section class="summary">
+		<h2 class="s_title">Summary</h2>
+		<p class="s_con">Enthusiastic student bringing strong knowledge base in Computer Science. Demonstrated success in coding honed through academic projects. Flexible in working with various personality types to complete projects smoothly and on time. </p>
+	</section>
+	<section class="skills">
+		<a id="skills"><h2 class="sk_title">Skills</h2></a>
+		<ul class="sk_con">
+			<li class="l1">Some Html, Python, and C experience </li>
+			<li class="l2">Experience with Java </li>
+			<li class="l3">Some SQL experience </li>
+			<li class="l4">Testing/Coding and debugging</li>
+			<li class="l5">Task prioritization</li>
+			<li class="l6">Collaboration</li>
+			<li class="l7">Guiding a group</li>
+		</ul>
+	</section>
+	<section class="experience">
+		<h2 class="e_title"><a id="e">Experience</a></h2>
+		<p class="ta_add">Illinois Institute of Technology 							Chicago, IL</p>
+		<p class="ta"><b>Teaching Assistant</b> 						  August 2019 to May 2020</p>
+		<p class="ta_con">Attended all scheduled sessions and maintained open hours for general availability. Fulfilled multiple duties, including tutoring basic coding skills, and grading homework. Helped students master learning concepts through one-on-one and small group tutoring. </p>
+		
+		<p class="cfa_add">Chick-Fil-A Inc. 							Orland Park, IL</p>
+		<p class="cfa"><b>Kitchen Staff Member</b>					August 2016 to September 2019</p>
+		<p class="cfa_con">Cross-trained in other kitchen positions to support team and meet customer needs. Worked hard to learn all required tasks quickly and maximize performance. Completed ongoing quality checks on several different products, closely following strict quality assurance guidelines.</p>
+	</section>
+	<section class="education">
+		<h2 class="ed_title"><a id="et">Education and Training</a></h2>
+		<p class="ed_con"><b>Illinois Institute Of Technology</b>								Chicago, IL</p>
+		<p class="ed_con2"><b>Bachelor of Computer Science</b>	   					        Expected in May 2022</p>
+	</section>
+	<section class="pdf">
+		<h3 class="pdf_t"><a id="rd" href="./William_Malak_Resume.pdf" download="malak_resume">Resume Download</a></h3>
+	</section>
+ </div>
+</body>
